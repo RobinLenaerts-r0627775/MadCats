@@ -1,0 +1,24 @@
+.content {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.grouppic {
+    width: 90%;
+}
+
+.logo {
+    width: 30%
+}
+
+h2 {
+    color: red;
+}
+
+.alert {
+    color: red;
+    font-size: larger;
+}
