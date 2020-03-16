@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<title>Madcat's Roughriders</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> About</a>
+            <a href="#concerts" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Concerts</a>
+            <a href="#gallery" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Gallery</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Contact</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+          <i class="fa fa-arrow-up"></i>
+        </a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">About</a>
+            <a href="#concerts" class="w3-bar-item w3-button" onclick="toggleFunction()">Concerts</a>
+            <a href="#gallery" class="w3-bar-item w3-button" onclick="toggleFunction()">Gallery</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">Contact</a>
+        </div>
+    </div>
+    
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MADCAT'S ROUGHRIDERS</span>
+        </div>
+    </div>
+    
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">Madcat's Roughriders</h3>
+        <div class="w3-row w3-center w3-row-padding">
+            <p>
+                Wat mag je verwachten als je een doorwinterde bluesrot als Frank D'Heye samenzet met een fluweel gevingerde gitarist als Yves Lenaerts? Voeg daar nog eens de jongste en groovende ritmesectie in het circuit aan toe in de vorm van Niels Deglin en Bram Gourmand.
+            </p>
+            <h2>Vuurwerk</h2>
+            <p>
+                Na enkele omzwervingen heeft dit viertal onomstootbaar haar eigen sound gevonden. We hebben het over een afgewogen mix van swampy grooves, dirty harpin' en funky swings, afgewerkt met verrassend stinkende boogies. Ze nemen hun publiek mee op een trip
+                door eigen composities, waarbij ze de grote bluesmeesters eren zonder een zoveelste copyband te zijn. Deze heren staan garant voor een avond vol passie en entertainment en mikken recht op het hart van het publiek .
+            </p>
+            <p class="alert">Nieuwsgierig? Check out the <a href="#gallery">Gallery</a></p>
+            <img class="logo" src="image/Logo.jpg">
+        </div>
+    </div>
+    
+    
+    
+    <!-- Second Parallax Image with concerts Text -->
+    <div class="bgimg-2 w3-display-container">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide"><b>Concerts</b></span>
+        </div>
+    </div>
+    
+    <!-- Container (concerts Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="concerts">
+        <h3 class="w3-center">Concerts</h3>
+        
+
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, nihil quos repellat ut non neque at alias saepe! Vero corrupti quas facere facilis nemo voluptate perferendis sint qui quod dolorum.    
+        </div>
+    </div>
+    
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">Gallery</span>
+        </div>
+    </div>
+
+    <!-- Container (gallery Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="gallery">
+        <h3 class="w3-center">Gallery</h3>
+        
+
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quidem, cum soluta doloribus vel, aut corporis nemo esse labore atque sit dignissimos rem, nobis earum sapiente quasi amet ab aliquam?  
+        </div>
+    </div>
+
+    <!-- Third Parallax Image with contact Text -->
+    <div class="bgimg-4 w3-display-container">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
+        </div>
+    </div>
+    
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="contact">
+        <div class="w3-row-padding w3-center">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quidem, cum soluta doloribus vel, aut corporis nemo esse labore atque sit dignissimos rem, nobis earum sapiente quasi amet ab aliquam?  
+        </div>    
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+        </div>
+    </footer>
+
+</body>
+</html>
