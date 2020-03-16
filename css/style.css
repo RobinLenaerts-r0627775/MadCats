@@ -21,21 +21,21 @@ body, html {
     min-height: 100%;
 }
 
-/* Second image (Portfolio) */
+/* Second image (Concerts) */
 .bgimg-2 {
-    background-image: url("../image/banner.png");
+    background-image: url("../image/banner2.jpg");
     min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("../image/banner.jpg");
+    background-image: url("../image/banner3.jpg");
     min-height: 400px;
 }
 
 /* Fourth image (Contact) */
 .bgimg-4 {
-    background-image: url("../image/banner.jpg");
+    background-image: url("../image/banner4.jpg");
     min-height: 400px;
 }
 
